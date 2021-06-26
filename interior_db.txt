@@ -1,0 +1,26 @@
+create database idesign_db;
+
+use idesign_db;
+
+create table login(userid varchar(100), password varchar(20));
+
+create table customers(fname varchar(50),lname varchar(50), emailid varchar(100), mobile varchar(10));
+
+create table products(pcode varchar(20),pname varchar(50), description varchar(500), type varchar(20), price int,pic1 longblob);
+
+
+create table orders(order_no varchar(50),order_date date, address varchar(500), emailid varchar(100),grand_total int,payment_mode varchar(20));
+
+create table orders_products(orderno varchar(50), pcode varchar(20),qty int,price int, total int);
+
+create table payment(order_no varchar(50), total_amt_paid int, payment_mode varchar(20));
+
+create table feedback(name varchar(100), emailid varchar(50) ,mobile varchar(10),feedback varchar(500));
+
+insert into login values('admin@satishinteriors.com' ,'admin123');
+
+insert into customers values('admin' ,'admin','admin@satishinteriors.com','9999999999');
+
+
+
+	
