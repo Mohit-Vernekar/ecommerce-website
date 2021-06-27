@@ -7,7 +7,4 @@ The project requires a functional MySQL database connection to run. Refer the 'i
 
 In case of any errors related to the filepath, make the appropriate changes wherever required.
 
-Project synopsis and Blackbook has been included and is in the 'Project docs' folder.  
-
-
-All rights remain with the owner.
+Project synopsis and Blackbook has been included and is in the 'Project docs' folder.
